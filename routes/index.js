@@ -66,7 +66,7 @@ router.get('/new/:url', function(req, res, next){
             res.send("something went wrong")
             }
           else{
-            res.send("Your short URL is: www.jade-tree.herokuapp.com/" + (response.number))
+            res.send("Your short URL is: https://agile-dawn-55687.herokuapp.com/" + (response.number))
             }
           })
         }
